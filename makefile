@@ -23,8 +23,7 @@ check:
 
 .PHONY: test
 test:
-	uv run pytest -v -s
-
+	uv run pytest
 
 .PHONY: docs
 docs:
