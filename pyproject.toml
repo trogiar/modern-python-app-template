@@ -1,0 +1,21 @@
+[project]
+name = "example-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+
+[dependency-groups]
+dev = [
+    "mdformat>=0.7.19",
+    "mypy>=1.13.0",
+    "pytest>=8.3.4",
+    "ruff>=0.8.2",
+]
+
+[tool.mypy]
+files = "example_project"
+
+[tool.pytest.ini_options]
+pythonpath = "example_project"
+testpath = "tests"
