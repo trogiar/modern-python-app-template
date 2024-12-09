@@ -6,23 +6,22 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'example-project'
-copyright = '2024, someone'
-author = 'someone'
-release = '0.0.0'
+project: str = "example-project"
+copyright: str = "2024, someone"
+author: str = "someone"
+release: str = "0.0.0"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions: list[str] = []
 
-templates_path = ['_templates']
-exclude_patterns = []
-
+templates_path: list[str] = ["_templates"]
+exclude_patterns: list[str] = []
 
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
-html_static_path = ['_static']
+html_theme: str = "alabaster"
+html_static_path: list[str] = ["_static"]
