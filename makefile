@@ -27,5 +27,4 @@ test:
 
 .PHONY: docs
 docs:
-	cd docs
-	make html
+	cd docs && make docs
