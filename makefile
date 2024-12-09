@@ -28,4 +28,5 @@ test:
 
 .PHONY: docs
 docs:
-	(cd docs; make html)
+	cd docs
+	uv run make html
