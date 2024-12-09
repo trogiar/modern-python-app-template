@@ -25,3 +25,7 @@ check:
 test:
 	uv run pytest -v -s
 
+
+.PHONY: docs
+docs:
+	(cd docs; make html)
