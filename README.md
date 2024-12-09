@@ -3,7 +3,7 @@
 ## Run
 
 ```bash
-uv run main.py
+uv run app
 ```
 
 ## Features
@@ -18,3 +18,4 @@ uv run main.py
 
 - [modern-python-template](https://github.com/gecrooks/modern-python-template)
 - [cookiecutter-hypermodern-python](https://github.com/cjolowicz/cookiecutter-hypermodern-python)
+- [fastapi-sqlalchemy-template](https://github.com/modern-python/fastapi-sqlalchemy-template)

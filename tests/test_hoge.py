@@ -1,4 +1,4 @@
-from example_project.hoge import hoge
+from app.hoge import hoge
 
 
 def test_hoge():
