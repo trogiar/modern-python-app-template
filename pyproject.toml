@@ -21,4 +21,4 @@ files = "example_project"
 [tool.pytest.ini_options]
 addopts = "--cov --cov-branch -s -v"
 pythonpath = "example_project"
-testpath = "tests"
+testpaths = ["tests"]
