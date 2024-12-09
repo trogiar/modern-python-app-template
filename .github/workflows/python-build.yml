@@ -31,4 +31,4 @@ jobs:
       run: uv run mypy .
     - name: Build documentation with sphinx
       run: |
-        cd docs && make html
+        cd docs && uv run sphinx-build -b html source build/html
