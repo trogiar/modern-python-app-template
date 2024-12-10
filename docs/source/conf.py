@@ -20,6 +20,7 @@ templates_path: list[str] = ["_templates"]
 exclude_patterns: list[str] = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
+    "myst_parser",
 ]
 
 
