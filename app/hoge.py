@@ -2,8 +2,7 @@ from loguru import logger
 
 
 def hoge() -> str:
-    """
-    Return "hoge".
+    """hoge
 
     Returns:
         str: "hoge"
