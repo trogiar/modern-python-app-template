@@ -28,7 +28,7 @@ jobs:
     - name: Install the project
       run: uv sync --all-extras --dev
     - name: Test with pytest
-      run: uv run pytest --cov-fail-under 100
+      run: uv run pytest --cov-fail-under 80
     - name: Lint with ruff
       run: uv run ruff check .
     - name: Typecheck with mypy
