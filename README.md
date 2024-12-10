@@ -13,6 +13,7 @@ make run
 - Formatting markdown with [mdformat](https://github.com/hukkin/mdformat)
 - Static type-checking with [mypy](http://mypy-lang.org/)
 - Testing with [pytest](https://docs.pytest.org/en/latest/)
+- Code coverage with [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/)
 - Continuous integration with [GitHub Actions](https://github.com/features/actions)
 - Logging with [loguru](https://github.com/Delgan/loguru)
 - Configuration with [pydantic-settings](https://docs.pydantic.dev/latest/concepts/pydantic_settings/)
