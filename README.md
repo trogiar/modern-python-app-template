@@ -14,6 +14,7 @@ make run
 - Testing with [pytest](https://docs.pytest.org/en/latest/)
 - Continuous integration with [GitHub Actions](https://github.com/features/actions)
 - Logging with [loguru](https://github.com/Delgan/loguru)
+- Configuration with [pydantic-settings](https://docs.pydantic.dev/latest/concepts/pydantic_settings/)
 
 ## References
 

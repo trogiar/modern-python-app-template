@@ -1,5 +1,7 @@
 from loguru import logger
 
+from app.settings import get_settings
+
 
 def hoge() -> str:
     """hoge
@@ -8,6 +10,6 @@ def hoge() -> str:
         str: hoge
     """
 
-    logger.info("hoge")
+    logger.info(f"This is {get_settings().app_name}")
 
     return "hoge"
