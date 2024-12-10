@@ -3,7 +3,7 @@
 ## Run
 
 ```bash
-uv run app
+make run
 ```
 
 ## Features
@@ -12,7 +12,8 @@ uv run app
 - Linting and formatting with [Ruff](https://docs.astral.sh/ruff/)
 - Static type-checking with [mypy](http://mypy-lang.org/)
 - Testing with [pytest](https://docs.pytest.org/en/latest/)
-- Continuous integration with [GitHub Actions]
+- Continuous integration with [GitHub Actions](https://github.com/features/actions)
+- Logging with [loguru](https://github.com/Delgan/loguru)
 
 ## References
 

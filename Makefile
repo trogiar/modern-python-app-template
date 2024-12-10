@@ -25,6 +25,10 @@ check:
 test:
 	uv run pytest
 
+.PHONY: run
+run:
+	uv run app
+
 .PHONY: docs
 docs:
 	cd docs && make html

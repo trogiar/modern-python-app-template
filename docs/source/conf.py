@@ -17,7 +17,10 @@ release: str = "0.0.0"
 extensions: list[str] = []
 
 templates_path: list[str] = ["_templates"]
-exclude_patterns: list[str] = []
+exclude_patterns: list[str] = [
+    "sphinx.ext.autodoc",
+    "sphinx.ext.napoleon",
+]
 
 
 # -- Options for HTML output -------------------------------------------------
