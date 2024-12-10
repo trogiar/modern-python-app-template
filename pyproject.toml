@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "loguru>=0.7.3",
     "pydantic-settings>=2.6.1",
+    "nbstripout>=0.8.1",
 ]
 
 [dependency-groups]
@@ -20,8 +21,7 @@ dev = [
     "pre-commit>=4.0.1",
 ]
 notebook = [
-    "jupyter>=1.1.1",
-    "nbstripout>=0.8.1",
+    "jupyterlab>=4.3.3",
 ]
 
 [tool.mypy]

@@ -32,3 +32,8 @@ run:
 .PHONY: docs
 docs:
 	cd docs && make html
+
+.PHONY: lab
+lab:
+	uv run jupyter lab
+
