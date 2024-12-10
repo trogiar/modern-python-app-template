@@ -6,10 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project: str = "example-project"
-copyright: str = "2024, someone"
-author: str = "someone"
-release: str = "0.0.0"
+project: str = "app"
+copyright: str = "2024, Author"
+author: str = "Author"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
