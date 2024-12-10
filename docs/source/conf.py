@@ -14,14 +14,13 @@ release: str = "0.0.0"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions: list[str] = []
-
-templates_path: list[str] = ["_templates"]
-exclude_patterns: list[str] = [
+extensions: list[str] = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
-    "myst_parser",
 ]
+
+templates_path: list[str] = ["_templates"]
+exclude_patterns: list[str] = []
 
 
 # -- Options for HTML output -------------------------------------------------
