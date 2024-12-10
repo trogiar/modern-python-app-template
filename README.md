@@ -9,7 +9,8 @@ make run
 ## Features
 
 - Packaging and dependency management with [uv](https://docs.astral.sh/uv/)
-- Linting and formatting with [Ruff](https://docs.astral.sh/ruff/)
+- Linting and formatting with [Ruff](https://docs.astral.sh/ruff/) and [pre-commit](https://pre-commit.com/)
+- Formatting markdown with [mdformat](https://github.com/hukkin/mdformat)
 - Static type-checking with [mypy](http://mypy-lang.org/)
 - Testing with [pytest](https://docs.pytest.org/en/latest/)
 - Continuous integration with [GitHub Actions](https://github.com/features/actions)
