@@ -16,7 +16,7 @@ make run
 - Logging with [loguru](https://github.com/Delgan/loguru)
 - Configuration with [pydantic-settings](https://docs.pydantic.dev/latest/concepts/pydantic_settings/)
 
-## References
+## Referenced repositories
 
 - [modern-python-template](https://github.com/gecrooks/modern-python-template)
 - [cookiecutter-hypermodern-python](https://github.com/cjolowicz/cookiecutter-hypermodern-python)
