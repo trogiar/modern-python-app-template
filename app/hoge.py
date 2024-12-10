@@ -5,7 +5,7 @@ def hoge() -> str:
     """hoge
 
     Returns:
-        str: "hoge"
+        str: hoge
     """
 
     logger.info("hoge")
