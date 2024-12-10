@@ -1,4 +1,4 @@
-# modern-python-template
+# modern-python-app-template
 
 ## Run
 
