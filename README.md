@@ -4,6 +4,12 @@
 
 - [uv](https://docs.astral.sh/uv/) >= 0.5.7
 
+## Usage
+
+```bash
+cookiecutter https://github.com/trogiar/modern-python-app-template.git
+```
+
 ## Features
 
 - Packaging and dependency management with [uv](https://docs.astral.sh/uv/)
