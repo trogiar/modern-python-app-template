@@ -33,3 +33,6 @@ testpaths = ["tests"]
 
 [tool.setuptools]
 packages = ["example_project"]
+
+[tool.setuptools.package-dir]
+"example_project" = "example_project"

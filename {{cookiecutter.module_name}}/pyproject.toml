@@ -33,3 +33,6 @@ testpaths = ["tests"]
 
 [tool.setuptools]
 packages = ["{{cookiecutter.module_name}}"]
+
+[tool.setuptools.package-dir]
+"{{cookiecutter.module_name}}" = "{{cookiecutter.module_name}}"
