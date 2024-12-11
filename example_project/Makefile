@@ -28,7 +28,7 @@ test:
 
 .PHONY: run
 run:
-	uv run app
+	uv run example_project
 
 .PHONY: docs
 docs:

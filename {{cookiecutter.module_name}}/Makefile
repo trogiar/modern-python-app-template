@@ -28,7 +28,7 @@ test:
 
 .PHONY: run
 run:
-	uv run app
+	uv run {{cookiecutter.module_name}}
 
 .PHONY: docs
 docs:
