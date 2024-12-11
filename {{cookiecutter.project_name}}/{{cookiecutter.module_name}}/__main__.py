@@ -1,4 +1,4 @@
-from app.hoge import hoge
+from {{cookiecutter.module_name}}.hoge import hoge
 
 
 def main():

@@ -1,4 +1,4 @@
-from app.hoge import hoge
+from example_project.hoge import hoge
 
 
 def main():
