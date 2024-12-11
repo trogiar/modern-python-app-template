@@ -1,10 +1,8 @@
 # modern-python-app-template
 
-## Run
+## Requirements
 
-```bash
-make run
-```
+- [uv](https://docs.astral.sh/uv/) >= 0.5.7
 
 ## Features
 

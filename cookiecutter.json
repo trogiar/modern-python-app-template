@@ -3,5 +3,6 @@
     "project_description": "Add your description here",
     "author_name": "Author",
     "author_email": "somebody@example.com",
+    "python_version": "3.12",
     "module_name": "{{cookiecutter.project_name.lower().replace('-', '_')}}"
 }

@@ -3,24 +3,24 @@ name = "{{cookiecutter.project_name}}"
 version = "0.1.0"
 description = "{{cookiecutter.project_description}}"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">={{cookiecutter.python_version}}"
 dependencies = [
-    "loguru>=0.7.3",
-    "pydantic-settings>=2.6.1",
+    "loguru",
+    "pydantic-settings",
 
 ]
 
 [dependency-groups]
 dev = [
-    "mdformat>=0.7.19",
-    "mypy>=1.13.0",
-    "pytest-cov>=6.0.0",
-    "pytest>=8.3.4",
-    "ruff>=0.8.2",
-    "sphinx>=8.1.3",
-    "pre-commit>=4.0.1",
-    "nbstripout>=0.8.1",
-    "jupyterlab>=4.3.3",
+    "mdformat",
+    "mypy",
+    "pytest-cov",
+    "pytest",
+    "ruff",
+    "sphinx",
+    "pre-commit",
+    "nbstripout",
+    "jupyterlab",
 ]
 
 [tool.mypy]
