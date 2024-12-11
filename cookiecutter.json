@@ -1,0 +1,7 @@
+{
+    "project_name": "example-project",
+    "project_description": "Add your description here",
+    "author_name": "Author",
+    "author_email": "somebody@example.com",
+    "module_name": "{{cookiecutter.project_name.lower().replace('-', '_')}}"
+}

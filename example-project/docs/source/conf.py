@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 import datetime
 
-project: str = "app"
+project: str = "example-project"
 author: str = "Author"
 copyright: str = f"{datetime.datetime.now().year}, {author}"
 

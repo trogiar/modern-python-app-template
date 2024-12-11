@@ -1,7 +1,7 @@
 [project]
-name = "example-project"
-version = "0.0.0"
-description = "Add your description here"
+name = "{{cookiecutter.project_name}}"
+version = "0.1.0"
+description = "{{cookiecutter.project_description}}"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -30,3 +30,6 @@ files = "example_project"
 addopts = "--cov --cov-branch -s -v"
 pythonpath = "app"
 testpaths = ["tests"]
+
+[tool.setuptools]
+packages = ["{{cookiecutter.module_name}}"]

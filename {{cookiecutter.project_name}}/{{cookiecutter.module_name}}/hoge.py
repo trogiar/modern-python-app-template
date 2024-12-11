@@ -1,6 +1,6 @@
 from loguru import logger
 
-from app.settings import get_settings
+from {{cookiecutter.module_name}}.settings import get_settings
 
 
 def hoge() -> str:
