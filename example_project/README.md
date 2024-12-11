@@ -1,3 +1,3 @@
-# example-project
+# Example-Project
 
 Add your description here

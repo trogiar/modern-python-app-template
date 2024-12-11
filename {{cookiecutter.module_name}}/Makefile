@@ -2,6 +2,7 @@
 init: # Initialize the project
 	uv sync
 	uv pip install -e .
+	uv run pre-commit install
 
 .PHONY: ruff
 format:
