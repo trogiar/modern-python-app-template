@@ -30,11 +30,14 @@ test:
 run:
 	uv run example_project
 
-.PHONY: docs
-docs:
-	cd docs && make html
+.PHONY: build_docs
+build_docs:
+	uv run mkdocs build
+
+.PHONY: view_docs
+view_docs: build_docs
+	uv run mkdocs serve
 
 .PHONY: lab
 lab:
 	uv run jupyter lab
-

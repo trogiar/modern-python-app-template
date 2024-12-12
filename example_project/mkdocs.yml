@@ -1,0 +1,9 @@
+site_name: Example-Project
+site_description: Add your description here
+
+theme:
+  name: "material"
+
+plugins:
+  - search
+  - mkdocstrings
