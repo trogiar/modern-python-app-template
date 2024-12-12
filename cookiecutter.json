@@ -1,7 +1,7 @@
 {
     "project_name": "Example-Project",
     "project_description": "Add your description here",
-    "private": true,
+    "public": false,
     "author_name": "Author",
     "author_email": "somebody@example.com",
     "python_version": "3.12",
