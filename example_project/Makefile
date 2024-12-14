@@ -1,26 +1,24 @@
 .PHONY: init
 init: # Initialize the project
+	uv venv
 	uv sync
 	uv pip install -e .
 	uv run pre-commit install
 
 .PHONY: ruff
-format:
+ruff:
 	uv run ruff check . --fix
 
-.PHONY: mypy
-lint:
-	uv run mypy .
+.PHONY: pyright
+pyright:
+	uv run pyright
 
 .PHONY: mdformat
 mdformat:
 	uv run mdformat .
 
 .PHONY: check
-check:
-	make lint
-	make format
-	make mdformat
+check: ruff pyright mdformat
 
 .PHONY: test
 test:
