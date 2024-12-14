@@ -2,6 +2,7 @@
 
 ## Requirements
 
+- [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 - [uv](https://docs.astral.sh/uv/) >= 0.5.7
 
 ## Usage
