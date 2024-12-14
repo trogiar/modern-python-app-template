@@ -13,7 +13,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "mdformat",
-    "mypy",
+    "pyright",
     "pytest-cov",
     "pytest",
     "ruff",
@@ -25,12 +25,12 @@ dev = [
     "jupyterlab",
 ]
 
-[tool.mypy]
-files = "example_project"
+[tool.pyright]
+include = ["{{cookiecutter.module_name}}", "notebooks", "tests"]
 
 [tool.pytest.ini_options]
 addopts = "--cov --cov-branch -s -v"
-pythonpath = "app"
+pythonpath = "{{cookiecutter.module_name}}"
 testpaths = ["tests"]
 
 [tool.setuptools]
