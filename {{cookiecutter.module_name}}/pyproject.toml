@@ -7,7 +7,6 @@ requires-python = ">={{cookiecutter.python_version}}"
 dependencies = [
     "loguru",
     "pydantic-settings",
-
 ]
 
 [dependency-groups]
