@@ -27,6 +27,8 @@ dev = [
 
 [tool.pyright]
 pythonVersion = "{{cookiecutter.python_version}}"
+venvPath = "."
+venv = ".venv"
 include = ["{{cookiecutter.module_name}}", "notebooks", "tests"]
 
 [tool.pytest.ini_options]

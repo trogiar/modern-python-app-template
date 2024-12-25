@@ -27,6 +27,8 @@ dev = [
 
 [tool.pyright]
 pythonVersion = "3.12"
+venvPath = "."
+venv = ".venv"
 include = ["example_project", "notebooks", "tests"]
 
 [tool.pytest.ini_options]
