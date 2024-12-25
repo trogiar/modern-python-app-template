@@ -26,12 +26,8 @@ dev = [
 ]
 
 [tool.pyright]
+pythonVersion = "{{cookiecutter.python_version}}"
 include = ["{{cookiecutter.module_name}}", "notebooks", "tests"]
-
-[tool.mypy]
-python_version = "{{cookiecutter.python_version}}"
-files = "{{cookiecutter.module_name}}"
-ignore_missing_imports = true
 
 [tool.pytest.ini_options]
 addopts = "--cov --cov-branch -s -v"

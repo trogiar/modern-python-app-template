@@ -26,12 +26,8 @@ dev = [
 ]
 
 [tool.pyright]
+pythonVersion = "3.12"
 include = ["example_project", "notebooks", "tests"]
-
-[tool.mypy]
-python_version = "3.12"
-files = "example_project"
-ignore_missing_imports = true
 
 [tool.pytest.ini_options]
 addopts = "--cov --cov-branch -s -v"
