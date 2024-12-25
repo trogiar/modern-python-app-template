@@ -32,9 +32,10 @@ venv = ".venv"
 include = ["example_project", "notebooks", "tests"]
 
 [tool.pytest.ini_options]
-addopts = "--cov --cov-branch -s -v"
+addopts = "--cov --cov-branch -s -vv"
 pythonpath = "example_project"
 testpaths = ["tests"]
+log_file = "logs/pytest.log"
 
 [tool.setuptools]
 packages = ["example_project"]
