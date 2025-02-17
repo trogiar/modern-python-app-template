@@ -6,7 +6,7 @@ ADD {{cookiecutter.module_name}} /{{cookiecutter.module_name}}
 ADD pyproject.toml /pyproject.toml
 ADD uv.lock /uv.lock
 
-WORKDIR /{{cookiecutter.module_name}}
+WORKDIR /
 
 RUN uv venv
 RUN uv sync --frozen
