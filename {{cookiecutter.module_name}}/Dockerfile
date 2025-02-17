@@ -8,6 +8,8 @@ ADD uv.lock /uv.lock
 
 WORKDIR /{{cookiecutter.module_name}}
 
+RUN uv venv
 RUN uv sync --frozen
+RUN uv pip install -e .
 
-CMD ["uv", "run", "streamlit", "run", "app.py"]
+CMD ["uv", "run", "streamlit", "run", "{{cookiecutter.module_name}}"]
