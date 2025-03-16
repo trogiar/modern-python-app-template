@@ -12,7 +12,7 @@ Using global cookiecutter installation:
 cookiecutter https://github.com/trogiar/modern-python-app-template.git
 ```
 
-Using mise-in-place:
+Using mise-en-place:
 ```bash
 mise x -- pip install pipx
 mise x -- pipx run cookiecutter https://github.com/trogiar/modern-python-app-template.git
