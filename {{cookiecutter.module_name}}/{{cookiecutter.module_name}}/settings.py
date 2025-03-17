@@ -8,7 +8,7 @@ class Settings(pydantic_settings.BaseSettings):
         extra="ignore",
     )
 
-    app_name: str = "example-project"
+    app_name: str = "{{cookiecutter.project_name}}"
 
 
 _settings = None
